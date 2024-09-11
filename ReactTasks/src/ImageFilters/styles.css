@@ -1,0 +1,48 @@
+.container {
+  text-align: center;
+}
+.main-heading {
+  font-size: 40px;
+  color: cornflowerblue;
+}
+.sub-container {
+  margin-top: 60px;
+  display: flex;
+}
+.previewImage {
+  width: 700px;
+  height: 500px;
+  background-color: rgb(211, 211, 211);
+  border-radius: 10px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+.filtersSelection {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.filtersbutton {
+  margin: 5px 5px 5px 15px;
+}
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto black;
+}
